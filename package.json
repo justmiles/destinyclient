@@ -1,5 +1,5 @@
 {
-  "name": "destiny-client",
+  "name": "destinyclient",
   "version": "1.0.1",
   "description": "Client to interact with Destiny's API",
   "main": "index.js",
