@@ -30,6 +30,12 @@ class DestinyClient
   getAccountSummary: (membershipType, membershipId, callback) ->
     @_performRequest methods.get, "/Platform/Destiny/#{membershipType}/Account/#{membershipId}/Summary/?definitions=true", null, callback
 
+  getCharacter: (membershipType, membershipId, characterId, callback) ->
+    @_performRequest methods.get, "/Platform/Destiny/#{membershipType}/Account/#{membershipId}/Character/#{characterId}/?definitions=true", null, callback
+
+  getCharacterStats: (membershipType, membershipId, characterId, callback) ->
+    @_performRequest methods.get, "/Platform/Destiny/Stats/#{membershipType}/#{membershipId}/#{characterId}", null, callback
+
   getActivityHistory: (membershipType, membershipId, characterId, options = {}, callback) ->
     options =
       params:
