@@ -1,0 +1,8 @@
+deploy:
+  provider: npm
+  email: j.milesmaddox@gmail.com
+  api_key:
+    secure: Hkc3lQJMQ5VakWIua+sfIWhTLHr8unuDqReyOh+RvOlD9tRgEs4TI9cvHiJAJputSl3dJAf7qamVM5MW8aASET6TU6UHHbH8+w6WMoXOFIw1sX2f/OnAaChIXlMwRD+yuj9Ztc6plyZvYt6xRpDH31McjkpcbBtevXC57AClnpO8+uhExgYK42n3uNT/gUyRwZevljCxlk3MtOPFQUqfg7BUznVoBOh/c5RcCvve+AXT1i9/HqO2OB7CBtWOPXfbVJ6H54uNwUFvHWsPhE55/vwZ31wOknbE6wcdj9wWHIcDo22l7oTElbHujY+/ShhXz7BquRqZt3T3+3N1cUAKSAH6uBRbaeZslXD60Pm5H5d3WtAOn+Hp6Wh4upTyQoLWJ1jypTxPkQy+M29uGFXhBOng8NM+PRIVaLxQV7UQ4Uhw9GaLrdVEQDHJ8b/KvY85PTPkXkXSYPg+yR/FvP1dpIewWvh8Qu4xNdsK29dCiDsbjj6cr2ZnX2wb5LVkEqOqw1FIiEprRzii7l9vxw25Iqann+C75ovsh8KIBzr3Iy1boYTt690GvVNgV+sth2yfqXbAfeH5EFFX4wUrSN3y9qe95lKOt1Zy0M0lPpkzcv0Tdi2Vv3kO01nNezEKv2LytxnZHw5bHsi+msJra/OzwMhh1diL/yjFLrEtqRHkEdo=
+  on:
+    tags: true
+    repo: justmiles/destinyclient
